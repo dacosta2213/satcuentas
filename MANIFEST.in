@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include satcuentas *.css
+recursive-include satcuentas *.csv
+recursive-include satcuentas *.html
+recursive-include satcuentas *.ico
+recursive-include satcuentas *.js
+recursive-include satcuentas *.json
+recursive-include satcuentas *.md
+recursive-include satcuentas *.png
+recursive-include satcuentas *.py
+recursive-include satcuentas *.svg
+recursive-include satcuentas *.txt
+recursive-exclude satcuentas *.pyc
